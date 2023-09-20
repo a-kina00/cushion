@@ -31,7 +31,7 @@ export const products = [{
         "image": yellow
     }],
     "sizes": ["2","3","4","5",],
-    "deadline": "09.24.2023",
+    "deadline": "2023/09/24",
     "prev_price": "250.00",
     "curr_price": "160.00",
     "reviews": [{
