@@ -1,0 +1,5 @@
+@import url(../../blocks/text/text.css);
+@import url(../../blocks/text/_size/text_size.css);
+@import url(../../blocks/text/_color/text_color_dark.css);
+@import url(../../blocks/text/_color/text_color_light.css);
+@import url(../../blocks/text/_color/text_color_highlight.css);

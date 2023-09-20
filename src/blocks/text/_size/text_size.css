@@ -1,0 +1,49 @@
+:global(.text_size_h1) {
+    font-weight: 900;
+    font-size: 21px;
+}
+
+:global(.text_size_h2) {
+    font-weight: 900;
+    font-size: 18px;
+}
+
+:global(.text_size_h3) {
+    font-weight: 900;
+    font-size: 10px;
+}
+
+:global(.text_size_h4) {
+    font-weight: 600;
+    font-size: 12px;
+}
+
+:global(.text_size_h5) {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+:global(.text_size_h6) {
+    font-weight: 900;
+    font-size: 15px;
+}
+
+:global(.text_size_h7) {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+:global(.text_size_h8) {
+    font-weight: 500;
+    font-size: 10px;
+}
+
+:global(.text_size_h9) {
+    font-weight: 600;
+    font-size: 28px;
+}
+
+:global(.text_size_h10) {
+    font-weight: 900;
+    font-size: 19px;
+}

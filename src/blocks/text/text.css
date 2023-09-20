@@ -1,0 +1,8 @@
+@import url(./vendor/fonts.css);
+
+:global(.text) {
+    font-family: 'Gotham Pro', sans-serif;
+    line-height: auto;
+    letter-spacing: .5px;
+    margin: 0;
+}

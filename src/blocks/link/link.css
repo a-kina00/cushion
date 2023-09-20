@@ -1,0 +1,29 @@
+:global(.link) {
+    position: relative;
+
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 1px 0;
+
+    text-transform: uppercase;
+
+    cursor: pointer;
+    transition: all .3s linear;
+    scale: .9;
+
+    max-width: max-content;
+}
+
+:global(.link:hover) {
+    background-size: 100% 1px;
+}
+
+:global(.link_theme_dark) {
+    color: #415a77;
+}
+
+:global(.link_theme_light) {
+    color: #d4a373;
+}

@@ -1,0 +1,27 @@
+.line {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 3px;
+
+    background-color: #F19D2F;
+
+    padding: 10px 0;
+}
+
+.line__text {
+    text-transform: uppercase;
+}
+
+.line__decoration {
+    font-size: 12px;
+}
+
+.logo {
+    height: 92px;
+    background-color: #FFD1AC;
+    background-image: url(../../images/logo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}

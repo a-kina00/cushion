@@ -1,0 +1,173 @@
+.block {}
+
+.heading {
+    position: relative;
+    text-transform: uppercase;
+}
+
+.heading__preview {
+    height: 281px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner {
+    position: absolute;
+    bottom: 14px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    height: 58px;
+    border-radius: 7px;
+
+    padding: 0 7px;
+}
+
+.heading__priceBanner {
+    composes: banner;
+    right: 13px;
+
+    background-color: #37D997;
+}
+
+.heading__countdownBanner {
+    composes: banner;
+    left: 13px;
+    width: 96px;
+    background-color: #F19D2F;
+}
+
+.heading__line {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+
+    height: 3px;
+    width: 90px;
+    background-color: #E27500;
+    border-radius: 10px;
+    border-style: none;
+
+    margin: 0;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    max-width: 90%;
+    margin: auto;
+}
+
+.about__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    margin-top: 11px;
+}
+
+.about__seller {
+    height: 17px;
+    width: 72px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    cursor: pointer;
+}
+
+.about__title {
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.about__description {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.about__descriptionLine {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+
+.about__rating {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4px;
+}
+
+.star {
+    width: 14px;
+    height: 14px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.filledStar {
+    composes: star;
+    background-image: url('../../images/Property\ 1=fill.svg');
+}
+
+.strokeStar {
+    composes: star;
+    background-image: url('../../images/Property\ 1=stroke.svg');
+}
+
+.select {
+    display: flex;
+    justify-content: space-between;
+}
+
+.select__type {
+    padding-bottom: 4px;
+}
+
+.select__input {
+    width: 170px;
+    height: 50px;
+
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    text-transform: uppercase;
+
+    appearance: none;
+    background-image: url('../../images/Property\ 1=down.svg');
+    background-repeat: no-repeat;
+    background-position: right 0.7rem top 50%;
+    background-size: 18px 7px;
+
+    cursor: pointer;
+}
+
+.orderButton {
+    width: 100%;
+    border: none;
+    background-color: #37D997;
+    border-radius: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+
+    padding: 10px 0;
+}
+
+.slide {
+    display: flex;
+    width: 100%;
+}

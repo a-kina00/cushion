@@ -1,0 +1,4 @@
+:global(.text_color_highlight) {
+    color: #37D997;
+    text-decoration: underline;
+}
