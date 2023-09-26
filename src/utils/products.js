@@ -5,6 +5,9 @@ import pink from '../images/pink.png';
 import yellow from '../images/yellow.png';
 import seller from '../images/seller.svg';
 
+let date = new Date(Date.now());
+date.setDate(date.getDate() + 2)
+
 export const products = [{
     "id": "0",
     "type": "slippers",
@@ -30,8 +33,8 @@ export const products = [{
         "color": "yellow",
         "image": yellow
     }],
-    "sizes": ["2","3","4","5",],
-    "deadline": "2023/09/24",
+    "sizes": ["2", "3", "4", "5",],
+    "deadline": date.toISOString(),
     "prev_price": "250.00",
     "curr_price": "160.00",
     "reviews": [{
